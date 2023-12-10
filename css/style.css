@@ -87,6 +87,7 @@ img {
   gap: 40px;
 }
 .menu-link {
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
