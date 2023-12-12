@@ -124,10 +124,13 @@ img {
   padding: 188px 0;
   background-image: linear-gradient(
       to right,
-      rgba(46, 47, 66, 0.7) 0%,
-      rgba(46, 47, 66, 0.7) 100%
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
     ),
     url(/images/backgr-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-page-title {
   color: var(--WHITE, #fff);
